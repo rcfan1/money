@@ -1,7 +1,7 @@
 [MITM]
 hostname = render.shuqireader.com,ocean.shuqireader.com
 
-[Script]
+[Scripts]
 # 用户信息
 http-request https://render.shuqireader.com/load/resource Script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/cookie.js, requires-body=1
 
