@@ -1,7 +1,7 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: 抖音极速版
+name: 抖音火山版
 
 on:
   workflow_dispatch:
@@ -9,13 +9,11 @@ on:
     - cron: '*/5 0-15 * * *'
   watch:
     types: started
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.event.repository.owner.id == github.event.sender.id
     steps:
-     - name: Checkout
+      - name: Checkout
         uses: actions/checkout@v2
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
@@ -24,17 +22,16 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【抖音极速版】'
+      - name: '运行 【抖音火山版】'
         run: |
-          node dyjsb.js
+          node huoshan.js
         env:
-          SIGNHEADER: ${{ secrets.SIGNHEADER }}
-          SIGNCOOKIE: ${{ secrets.SIGNCOOKIE }}
-          STEPHEADER: ${{ secrets.STEPHEADER }}
-          STEPKEY: ${{ secrets.STEPKEY }}
-          READHEADER: ${{ secrets.READHEADER }}
-          READKEY: ${{ secrets.READKEY }}
-          JD_DEBUG: ${{ secrets.JD_DEBUG }}
+          HSURL: ${{ secrets.HSURL }}
+          HSHEADER: ${{ secrets.HSHEADER }}
+          HSBODY: ${{ secrets.HSBODY }}
+          PLAYURL: ${{ secrets.PLAYURL }}
+          PLAYHEADER: ${{ secrets.PLAYHEADER }}
+          PLAYBODY: ${{ secrets.PLAYBODY }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
