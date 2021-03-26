@@ -13,9 +13,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.event.repository.owner.id == github.event.sender.id
     steps:
-     - name: Checkout
+      - name: Checkout
         uses: actions/checkout@v2
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
