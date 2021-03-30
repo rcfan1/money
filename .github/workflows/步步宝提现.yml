@@ -6,7 +6,7 @@ name: 步步宝提现
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '5 7 * * *'
   watch:
      types: started
   repository_dispatch:
