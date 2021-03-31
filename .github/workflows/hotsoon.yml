@@ -1,9 +1,9 @@
-name: hssp
+name: hootsoon
 
 on:
   workflow_dispatch:
   schedule:
-     - cron: '21 * * * *'
+     - cron: '21 0-15 * * *'
   watch:
     types: started
 jobs:
@@ -31,10 +31,10 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【hssp】'
+      - name: '运行 【hootsoon】'
         if: env.HOTSOONSIGNKEY
         run: |
-          node task/hssp.js
+          node hootsoonold.js
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
