@@ -34,7 +34,7 @@ jobs:
       - name: '运行 【hootsoon】'
         if: env.HOTSOONSIGNKEY
         run: |
-          node hootsoonold.js
+          node hotsoon_old.js
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
