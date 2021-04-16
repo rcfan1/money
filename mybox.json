@@ -24,7 +24,7 @@
             "type": "number",
             "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
     }],
-            "repo": "https://raw.githubusercontent.com/rcfan1/money/main/qkyl.js",
+            "repo": "https://raw.githubusercontent.com/rcfan1/money",
             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png"],
             "script": "https://raw.githubusercontent.com/rcfan1/money/main/qkyl.js"
 }
