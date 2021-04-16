@@ -1,6 +1,6 @@
 {
   "id": "rcfan1.app.sub",
-  "name": "my 脚本订阅",
+  "name": "rcfan1 脚本订阅",
   "author": "@rcfan1",
   "icon": "https://www.picb.cc/image/ZxJfzT",
   "repo": "https://github.com/rcfan1/money",
@@ -26,5 +26,5 @@
     }],
             "repo": "https://raw.githubusercontent.com/rcfan1/money/main/qkyl.js",
             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png"],
-            "script": "qkyl.js"
+            "script": "https://raw.githubusercontent.com/rcfan1/money/main/qkyl.js"
 }
