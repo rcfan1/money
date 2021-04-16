@@ -1,0 +1,30 @@
+{
+  "id": "rcfan1.app.sub",
+  "name": "my 脚本订阅",
+  "author": "@rcfan1",
+  "icon": "https://www.picb.cc/image/ZxJfzT",
+  "repo": "https://github.com/rcfan1/money",
+  "apps": [
+    {
+            "id": "qkyl",
+            "name": "趣客有礼",
+            "keys": ["qkurl", "qkhd","qkbody", "qkspbody","qkurl2", "qkhd2","qkbody2", "qkspbody2","qkurl3", "qkhd3","qkbody3", "qkspbody3"],
+            "author": "@rcfan1",
+            "settings": [{
+            "id": "qkylstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    },
+    {
+            "id": "qkylcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    }],
+            "repo": "https://raw.githubusercontent.com/rcfan1/money/main/qkyl.js",
+            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png"],
+            "script": "qkyl.js"
+}
