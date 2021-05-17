@@ -25,6 +25,29 @@
             "repo": "https://raw.githubusercontent.com/xl2101200/-/main/fcs.js",
             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg","https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
             "script": "https://raw.githubusercontent.com/xl2101200/-/main/fcs.js"
+    },
+    {
+            "id": "ipxz",
+            "name": "ip小站",
+            "keys": ["ipxzurl", "ipxzhd"],
+            "author": "@tom",
+            "settings": [{
+            "id": "ipxzstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "ipxzcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/ipxz.js",
+            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg","https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+            "script": "https://raw.githubusercontent.com/xl2101200/-/main/ipxz.js"
     }
 ]
 }
