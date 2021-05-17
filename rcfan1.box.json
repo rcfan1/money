@@ -1,13 +1,13 @@
 {
   "id": "xl2101200.app.sub",
-  "name": "tom 脚本订阅",
-  "author": "@tom",
+  "name": "rcfan1 脚本订阅",
+  "author": "@rcfan1",
   "icon": "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png",
   "repo": "https://github.com/xl2101200/-",
   "apps": [{
             "id": "fcs",
             "name": "fcs",
-            "keys": ["fcsurl","fcshd","fcsbody"],
+            "keys": ["fcsurl","fcshd","fcsbody","fcsurl2","fcshd2","fcsbody2"],
             "author": "@tom",
             "settings": [{
             "id": "fcsstatus",
@@ -29,7 +29,7 @@
     {
             "id": "ipxz",
             "name": "ip小站",
-            "keys": ["ipxzurl", "ipxzhd"],
+            "keys": ["ipxzurl", "ipxzhd", "ipxzurl2", "ipxzhd2"],
             "author": "@tom",
             "settings": [{
             "id": "ipxzstatus",
