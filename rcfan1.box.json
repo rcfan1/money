@@ -27,6 +27,18 @@
             "script": "https://raw.githubusercontent.com/xl2101200/-/main/fcs.js"
     },
     {
+      "id": "qtt",
+      "name": "趣头条",
+      "keys": ["senku_signKey_qtt", "senku_signXTK_qtt", "senku_readKey_qtt", "senku_navCoinKey_qtt"],
+      "author": "@GideonSenku",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/qtt",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/qtt.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/qtt.png"
+      ]
+    },
+    {
       "id": "chavyleung.10086",
       "name": "10086",
       "keys": [
