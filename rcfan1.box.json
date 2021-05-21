@@ -39,6 +39,18 @@
       ]
     },
     {
+      "id": "qmlzc",
+      "name": "全民来找茬",
+      "keys": ["xnmheader", "xnmurl"],
+      "author": "@GideonSenku",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/qtt",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/qtt.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/qtt.png"
+      ]
+    },
+    {
       "id": "chavyleung.10086",
       "name": "10086",
       "keys": [
