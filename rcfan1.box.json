@@ -49,13 +49,7 @@
       "id": "WeChatLottery_new",
       "name": "微信抽奖",
       "keys": [
-        "TokenKeyValue",
-        "TokenKey",
-        "token",
-        "uid",
-        "UIDValue",
-        "UidKey",
-        "TokenName",
+        "sign",
         "wclotterynew",
         "wcluid"    
       ],
